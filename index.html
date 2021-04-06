@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
         <title>Admin-Panel</title>
     <link rel="stylesheet" href="./public/css/style.css">
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 </head>
 <body>
+    <input type="checkbox" id="nav-toggle">
     <div class="sidebar"> <!--Side Bar-->
         <div class="sidebar-brand">
-            <h2><span class="lab la-accusoft"></span>Accusoft</h2>
+            <h2><span class="lab la-accusoft"></span><span>cPanel</span></h2>
         </div>
 
         <div class="sidebar-menu"> <!--Side menu-->
@@ -51,7 +52,7 @@
     <div class="main-content"> <!--Main Content-->
         <header>
                 <h1>
-                    <label for="">
+                    <label for="nav-toggle">
                         <span class="las la-bars"></span>
                     </label>
                     Dashboard
